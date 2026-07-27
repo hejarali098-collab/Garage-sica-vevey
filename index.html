@@ -1,68 +1,183 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Garage Sica Vevey</title>
-<meta name="description" content="Garage Sica Vevey : rendez-vous et devis en ligne.">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Garage Sica Vevey</title>
+  <meta name="description" content="Garage Sica Vevey : entretien, réparation, carrosserie, pneus, climatisation et diagnostic. Rendez-vous, devis gratuit, WhatsApp et itinéraire Google Maps.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="container nav"><a class="brand" href="#accueil"><strong>GARAGE SICA</strong><span>VEVEY · MULTIMARQUES</span></a><a class="phone" href="tel:+41219216521">021 921 65 21</a></div></header>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#accueil">
+      <strong>GARAGE SICA</strong>
+      <span>VEVEY · MULTIMARQUES</span>
+    </a>
+    <a class="phone" href="tel:+41219216521">021 921 65 21</a>
+  </div>
+</header>
+
 <main>
-<section id="accueil" class="hero"><img src="garage-sica-hero.jpg" alt="Garage Sica Vevey"><div class="hero-buttons"><a class="btn yellow" href="#rendezvous">Prendre rendez-vous</a><a class="btn white" href="#devis">Devis gratuit</a></div></section>
+  <section id="accueil" class="hero">
+    <img src="garage-sica-hero.jpg" alt="Garage Sica Vevey">
+    <div class="hero-actions">
+      <a class="btn yellow" href="#rendezvous">Prendre rendez-vous</a>
+      <a class="btn white" href="#devis">Devis gratuit</a>
+      <a class="btn whatsapp" href="https://wa.me/41783201098?text=Bonjour%20Garage%20Sica%20Vevey%2C%20je%20souhaite%20vous%20contacter." target="_blank">WhatsApp</a>
+    </div>
+  </section>
 
-<section class="section contact"><div class="container"><p class="eyebrow">CONTACT</p><h1>Garage Sica Vevey</h1><div class="contact-grid">
-<a href="tel:+41219216521"><small>Téléphone</small><strong>021 921 65 21</strong></a>
-<a href="https://wa.me/41783201098"><small>WhatsApp</small><strong>+41 78 320 10 98</strong></a>
-<a href="mailto:contact@garagesica.ch"><small>E-mail</small><strong>contact@garagesica.ch</strong></a>
-<a target="_blank" href="https://maps.google.com/?q=Av.+de+Gilamont+24,+1800+Vevey"><small>Adresse</small><strong>Av. de Gilamont 24, 1800 Vevey</strong></a>
-</div></div></section>
+  <section class="section services">
+    <div class="container">
+      <p class="eyebrow">NOS SERVICES</p>
+      <h1>Garage Sica Vevey</h1>
+      <p class="intro">Entretien, réparation et carrosserie pour toutes les marques, avec plus de 20 ans d’expérience.</p>
 
-<section id="rendezvous" class="section light"><div class="container split"><div><p class="eyebrow">RENDEZ-VOUS</p><h2>Choisissez votre service</h2><p>Le client reçoit les informations du rendez-vous et peut l’ajouter à son calendrier.</p></div>
-<form id="appointment-form" class="form">
-<label>Nom et prénom<input id="appt-name" type="text" required></label>
-<label>Adresse e-mail<input id="appt-email" type="email" required></label>
-<label>Téléphone<input id="appt-phone" type="tel" required></label>
-<label>Véhicule<input id="appt-car" type="text" required></label>
-<label>Service<select id="appt-service" required>
-<option value="">Choisir un service</option>
-<option data-duration="60">Vidange / entretien</option>
-<option data-duration="45">Pneus / roues</option>
-<option data-duration="60">Climatisation</option>
-<option data-duration="60">Diagnostic électronique</option>
-<option data-duration="90">Freins</option>
-<option data-duration="120">Réparation mécanique</option>
-<option data-duration="120">Carrosserie / peinture</option>
-<option data-duration="60">Pré-expertise</option>
-<option data-duration="60">Autre demande</option>
-</select></label>
-<div class="row"><label>Date<input id="appt-date" type="date" required></label><label>Heure<input id="appt-time" type="time" required></label></div>
-<label>Message<textarea id="appt-message"></textarea></label>
-<button class="btn yellow" type="submit">Envoyer la demande</button>
-<p class="note">Le rendez-vous reste à confirmer par le garage.</p>
-</form></div></section>
+      <div class="service-grid">
+        <article><span>🛢️</span><h3>Vidange & entretien</h3></article>
+        <article><span>🛞</span><h3>Pneus & roues</h3></article>
+        <article><span>❄️</span><h3>Climatisation</h3></article>
+        <article><span>💻</span><h3>Diagnostic</h3></article>
+        <article><span>🔧</span><h3>Réparation mécanique</h3></article>
+        <article><span>🚘</span><h3>Carrosserie & peinture</h3></article>
+      </div>
+    </div>
+  </section>
 
-<section id="devis" class="section dark"><div class="container split"><div><p class="eyebrow">DEVIS GRATUIT</p><h2>Décrivez les travaux</h2><p>La demande est préparée pour être envoyée à contact@garagesica.ch.</p></div>
-<form id="quote-form" class="form">
-<label>Nom et prénom<input id="quote-name" type="text" required></label>
-<label>Adresse e-mail<input id="quote-email" type="email" required></label>
-<label>Téléphone<input id="quote-phone" type="tel" required></label>
-<label>Véhicule<input id="quote-car" type="text" required></label>
-<label>Service<select id="quote-service" required>
-<option value="">Choisir un service</option>
-<option>Vidange / entretien</option><option>Pneus / roues</option><option>Climatisation</option>
-<option>Diagnostic électronique</option><option>Freins</option><option>Réparation mécanique</option>
-<option>Carrosserie / peinture</option><option>Pré-expertise</option><option>Autre demande</option>
-</select></label>
-<label>Message<textarea id="quote-message" required></textarea></label>
-<button class="btn yellow" type="submit">Envoyer le devis</button>
-</form></div></section>
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <p class="eyebrow">CONTACT & ITINÉRAIRE</p>
+      <h2>Nous trouver facilement</h2>
+
+      <div class="contact-grid">
+        <a href="tel:+41219216521">
+          <small>Téléphone</small>
+          <strong>021 921 65 21</strong>
+        </a>
+
+        <a href="https://wa.me/41783201098?text=Bonjour%20Garage%20Sica%20Vevey%2C%20je%20souhaite%20vous%20contacter." target="_blank">
+          <small>WhatsApp</small>
+          <strong>+41 78 320 10 98</strong>
+        </a>
+
+        <a href="mailto:contact@garagesica.ch">
+          <small>E-mail</small>
+          <strong>contact@garagesica.ch</strong>
+        </a>
+
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+de+Gilamont+24,+1800+Vevey" target="_blank">
+          <small>Adresse</small>
+          <strong>Av. de Gilamont 24, 1800 Vevey</strong>
+        </a>
+      </div>
+
+      <div class="map-card">
+        <iframe
+          title="Garage Sica Vevey sur Google Maps"
+          src="https://www.google.com/maps?q=Av.%20de%20Gilamont%2024%2C%201800%20Vevey&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <a class="route-btn" href="https://www.google.com/maps/dir/?api=1&destination=Av.+de+Gilamont+24,+1800+Vevey" target="_blank">
+          Ouvrir l’itinéraire Google Maps
+        </a>
+      </div>
+
+      <div class="hours">
+        <div><strong>Lundi–vendredi</strong><span>07:30–12:00 / 13:30–17:30</span></div>
+        <div><strong>Samedi</strong><span>08:00–12:00</span></div>
+        <div><strong>Dimanche</strong><span>Fermé</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rendezvous" class="section light">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">RENDEZ-VOUS</p>
+        <h2>Choisissez votre service</h2>
+        <p>La demande sera préparée et envoyée au garage.</p>
+      </div>
+
+      <form class="form" onsubmit="sendAppointment(event)">
+        <label>Nom et prénom<input id="appt-name" type="text" required></label>
+        <label>E-mail<input id="appt-email" type="email" required></label>
+        <label>Téléphone<input id="appt-phone" type="tel" required></label>
+        <label>Véhicule<input id="appt-car" type="text" placeholder="Marque et modèle" required></label>
+        <label>Service
+          <select id="appt-service" required>
+            <option value="">Choisir un service</option>
+            <option>Vidange / entretien</option>
+            <option>Pneus / roues</option>
+            <option>Climatisation</option>
+            <option>Diagnostic électronique</option>
+            <option>Freins</option>
+            <option>Réparation mécanique</option>
+            <option>Carrosserie / peinture</option>
+            <option>Pré-expertise</option>
+            <option>Autre demande</option>
+          </select>
+        </label>
+        <div class="row">
+          <label>Date<input id="appt-date" type="date" required></label>
+          <label>Heure<input id="appt-time" type="time" required></label>
+        </div>
+        <button class="btn yellow" type="submit">Envoyer sur WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="devis" class="section dark">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">DEVIS GRATUIT</p>
+        <h2>Décrivez votre demande</h2>
+        <p>Le message sera envoyé directement sur WhatsApp.</p>
+      </div>
+
+      <form class="form" onsubmit="sendQuote(event)">
+        <label>Nom et prénom<input id="quote-name" type="text" required></label>
+        <label>E-mail<input id="quote-email" type="email" required></label>
+        <label>Téléphone<input id="quote-phone" type="tel" required></label>
+        <label>Véhicule<input id="quote-car" type="text" required></label>
+        <label>Service
+          <select id="quote-service" required>
+            <option value="">Choisir un service</option>
+            <option>Vidange / entretien</option>
+            <option>Pneus / roues</option>
+            <option>Climatisation</option>
+            <option>Diagnostic électronique</option>
+            <option>Freins</option>
+            <option>Réparation mécanique</option>
+            <option>Carrosserie / peinture</option>
+            <option>Pré-expertise</option>
+            <option>Autre demande</option>
+          </select>
+        </label>
+        <label>Message<textarea id="quote-message" required></textarea></label>
+        <button class="btn yellow" type="submit">Demander le devis</button>
+      </form>
+    </div>
+  </section>
 </main>
 
-<div id="confirmation" class="modal hidden"><div class="modal-card"><button class="close" onclick="closeModal()">×</button><h2>Demande enregistrée</h2><p id="confirmation-text"></p><div id="calendar-actions" class="calendar-actions hidden"><button class="btn yellow" onclick="downloadCalendar()">Ajouter au calendrier</button><a id="google-calendar-link" class="btn dark-btn" target="_blank">Google Calendar</a></div></div></div>
+<div class="mobile-bar">
+  <a href="tel:+41219216521">Appeler</a>
+  <a href="https://wa.me/41783201098?text=Bonjour%20Garage%20Sica%20Vevey" target="_blank">WhatsApp</a>
+  <a href="#rendezvous">Rendez-vous</a>
+  <a href="#devis">Devis</a>
+</div>
 
-<div class="mobile-bar"><a href="tel:+41219216521">Appeler</a><a href="#rendezvous">Rendez-vous</a><a href="#devis">Devis</a></div>
-<footer><div class="container footer"><strong>Garage Sica Vevey</strong><span>Entretien · Réparation · Carrosserie · Toutes marques</span></div></footer>
+<footer>
+  <div class="container footer">
+    <strong>Garage Sica Vevey</strong>
+    <span>Entretien · Réparation · Carrosserie · Toutes marques</span>
+  </div>
+</footer>
+
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>

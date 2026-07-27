@@ -1,7 +1,7 @@
-Cette version :
-- demande l’adresse e-mail du client ;
-- prépare l’e-mail vers contact@garagesica.ch ;
-- crée un fichier calendrier .ics ;
-- propose Google Calendar.
-
-Pour un envoi totalement automatique sans ouvrir l’application e-mail, il faudra connecter Resend, Formspree ou EmailJS dans Vercel.
+Version professionnelle avec :
+- bouton WhatsApp
+- formulaire rendez-vous vers WhatsApp
+- formulaire devis vers WhatsApp
+- carte Google Maps intégrée
+- bouton itinéraire
+- barre fixe Appeler / WhatsApp / Rendez-vous / Devis
