@@ -1,15 +1,16 @@
-NOUVELLE VERSION
+VERSION AVEC PHOTO DES PRESTATIONS
 
-- Galerie horizontale avec flèches.
-- Explication de chaque service.
-- Nettoyage FAP avec machine spéciale.
-- Petit bouton WhatsApp flottant uniquement.
-- Barre fixe : Appeler / Rendez-vous / Devis.
+- La section texte « Des prestations complètes » a été supprimée.
+- La grande image Carrosserie / Diagnostic & Entretien / Nettoyage FAP est affichée à la place.
+- La galerie, la carte Google Maps, WhatsApp, Rendez-vous et Devis restent actifs.
 
-Pour changer les photos :
-- garage-exterieur.jpg
-- hero.jpg
-- services.jpg
-- contact.jpg
-
-Remplacez une image dans GitHub en gardant exactement le même nom.
+Fichiers à remplacer dans GitHub :
+index.html
+style.css
+script.js
+prestations.jpg
+hero.jpg
+garage-exterieur.jpg
+services.jpg
+contact.jpg
+vercel.json
