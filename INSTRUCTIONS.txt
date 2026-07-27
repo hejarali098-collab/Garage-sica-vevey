@@ -1,13 +1,7 @@
-GARAGE SICA — SITE FINAL SIMPLE
+Cette version :
+- demande l’adresse e-mail du client ;
+- prépare l’e-mail vers contact@garagesica.ch ;
+- crée un fichier calendrier .ics ;
+- propose Google Calendar.
 
-Ordre du site :
-1. Image Garage Sica
-2. Contact
-3. Rendez-vous
-4. Devis gratuit
-
-Pour mettre à jour le site :
-- Décompresser le ZIP
-- Mettre tous les fichiers dans GitHub
-- Remplacer les anciens fichiers portant les mêmes noms
-- Vercel publiera automatiquement la nouvelle version
+Pour un envoi totalement automatique sans ouvrir l’application e-mail, il faudra connecter Resend, Formspree ou EmailJS dans Vercel.
