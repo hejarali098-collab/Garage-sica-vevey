@@ -1,23 +1,17 @@
-SITE GARAGE SICA VEVEY — PRÊT POUR VERCEL
+VERSION SIMPLE ET PROFESSIONNELLE — GARAGE SICA VEVEY
 
-Fichiers à mettre directement à la racine du dépôt GitHub :
-- index.html
-- style.css
-- script.js
-- garage-hero.jpg
-- vercel.json
+Contenu :
+- vraie photo extérieure du garage
+- design peu chargé
+- services essentiels
+- formulaire devis
+- formulaire rendez-vous
+- téléphone, WhatsApp, e-mail et adresse
+- horaires
+- version téléphone
 
-IMPORTANT :
-1. Ne pas envoyer le fichier ZIP dans GitHub.
-2. Décompresser le ZIP sur l’iPhone.
-3. Envoyer les 5 fichiers ci-dessus directement dans le dépôt.
-4. Vérifier que les noms sont exactement :
-   index.html
-   style.css
-   script.js
-   garage-hero.jpg
-   vercel.json
-5. Sur Vercel :
-   Framework Preset = Other
-   Root Directory = ./
-   Puis cliquer sur Deploy ou Redeploy.
+Pour remplacer l'ancien site :
+1. Décompresser ce ZIP.
+2. Mettre tous les fichiers dans le dépôt GitHub à la racine.
+3. Remplacer les anciens fichiers portant les mêmes noms.
+4. Vercel redéploiera automatiquement.
