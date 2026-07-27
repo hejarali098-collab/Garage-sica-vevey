@@ -1,16 +1,28 @@
-VERSION AVEC PHOTO DES PRESTATIONS
+SITE PREMIUM GARAGE SICA
 
-- La section texte « Des prestations complètes » a été supprimée.
-- La grande image Carrosserie / Diagnostic & Entretien / Nettoyage FAP est affichée à la place.
-- La galerie, la carte Google Maps, WhatsApp, Rendez-vous et Devis restent actifs.
+Style :
+- noir, jaune et blanc
+- grande bannière
+- 6 services avec photos
+- section vidéo
+- Google Maps
+- WhatsApp
+- rendez-vous et devis
 
-Fichiers à remplacer dans GitHub :
+Pour ajouter une vraie vidéo :
+- envoyez la vidéo du garage ;
+- elle remplacera la vignette video-cover.jpg.
+
+À envoyer dans GitHub :
 index.html
 style.css
 script.js
-prestations.jpg
-hero.jpg
-garage-exterieur.jpg
-services.jpg
-contact.jpg
 vercel.json
+hero-garage.jpg
+video-cover.jpg
+service-entretien.jpg
+service-reparation.jpg
+service-carrosserie.jpg
+service-diagnostic.jpg
+service-clim.jpg
+service-fap.jpg

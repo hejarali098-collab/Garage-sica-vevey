@@ -2,92 +2,138 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Garage Sica Vevey</title>
-  <meta name="description" content="Garage Sica Vevey : entretien, réparation, carrosserie, climatisation, pneus, diagnostic et nettoyage FAP.">
+  <meta name="description" content="Garage Sica Vevey : entretien, réparation, carrosserie, diagnostic, climatisation, pneus et nettoyage FAP.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<header class="header">
   <div class="container nav">
-    <a class="brand" href="#accueil">
-      <strong>GARAGE SICA</strong>
-      <span>VEVEY · MULTIMARQUES</span>
+    <a href="#accueil" class="logo">
+      <strong>GARAGE <span>SICA</span></strong>
+      <small>VEVEY · MULTIMARQUES</small>
     </a>
-    <a class="phone" href="tel:+41219216521">021 921 65 21</a>
+    <nav>
+      <a href="#prestations">Prestations</a>
+      <a href="#atelier">Atelier</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="top-cta" href="#rendezvous">Prendre rendez-vous</a>
   </div>
 </header>
 
 <main>
   <section id="accueil" class="hero">
-    <img src="hero.jpg" alt="Garage Sica Vevey">
-    <div class="hero-actions">
-      <a class="btn yellow" href="#rendezvous">Prendre rendez-vous</a>
-      <a class="btn white" href="#devis">Devis gratuit</a>
-    </div>
-  </section>
-
-  <section class="section intro">
-    <div class="container">
+    <img src="hero-garage.jpg" alt="Garage Sica Vevey">
+    <div class="hero-shade"></div>
+    <div class="container hero-content">
       <p class="eyebrow">GARAGE MULTIMARQUES À VEVEY</p>
-      <h1>Votre véhicule entre de bonnes mains</h1>
-      <p>Entretien, réparation et carrosserie pour toutes les marques, avec plus de 20 ans d’expérience.</p>
+      <h1>Votre garage<br><span>de confiance</span></h1>
+      <p class="hero-text">Entretien, réparation, carrosserie et diagnostic pour toutes les marques. Plus de 20 ans d’expérience.</p>
+
+      <div class="hero-points">
+        <div><strong>Travail soigné</strong><span>Qualité et précision</span></div>
+        <div><strong>Prix transparents</strong><span>Devis clair et gratuit</span></div>
+        <div><strong>Rapidité</strong><span>Respect des délais</span></div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#rendezvous" class="btn yellow">Prendre rendez-vous</a>
+        <a href="#devis" class="btn outline">Devis gratuit</a>
+      </div>
     </div>
   </section>
 
-  <section class="gallery-section">
+  <section id="prestations" class="section services">
     <div class="container">
-      <div class="section-title">
-        <p class="eyebrow">GALERIE</p>
-        <h2>Découvrez notre garage</h2>
+      <div class="section-heading">
+        <p class="eyebrow">NOS PRESTATIONS</p>
+        <h2>Les services essentiels en grand</h2>
       </div>
 
-      <div class="gallery-wrapper">
-        <button class="gallery-arrow left" onclick="moveGallery(-1)" aria-label="Photo précédente">‹</button>
-        <div class="gallery-track" id="gallery-track">
-          <figure>
-            <img src="garage-exterieur.jpg" alt="Entrée Garage Sica Vevey">
-            <figcaption>Notre garage à Vevey</figcaption>
-          </figure>
-          <figure>
-            <img src="hero.jpg" alt="Garage Sica toutes marques">
-            <figcaption>Garage multimarques</figcaption>
-          </figure>
-          <figure>
-            <img src="services.jpg" alt="Services Garage Sica">
-            <figcaption>Nos services automobiles</figcaption>
-          </figure>
-          <figure>
-            <img src="contact.jpg" alt="Coordonnées Garage Sica">
-            <figcaption>Contact et horaires</figcaption>
-          </figure>
-        </div>
-        <button class="gallery-arrow right" onclick="moveGallery(1)" aria-label="Photo suivante">›</button>
-      </div>
+      <div class="services-grid">
+        <article>
+          <img src="service-entretien.jpg" alt="Entretien et vidange">
+          <div class="service-body">
+            <h3>Entretien & vidange</h3>
+            <p>Vidange, filtres, niveaux, freins et entretien constructeur.</p>
+          </div>
+        </article>
 
-      <p class="gallery-note">Pour changer les photos plus tard, remplacez simplement les fichiers dans GitHub en gardant les mêmes noms.</p>
+        <article>
+          <img src="service-reparation.jpg" alt="Réparation mécanique">
+          <div class="service-body">
+            <h3>Réparation mécanique</h3>
+            <p>Moteur, embrayage, suspension, freinage et échappement.</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="service-carrosserie.jpg" alt="Carrosserie">
+          <div class="service-body">
+            <h3>Carrosserie</h3>
+            <p>Réparation, peinture, débosselage et remise en état.</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="service-diagnostic.jpg" alt="Diagnostic électronique">
+          <div class="service-body">
+            <h3>Diagnostic électronique</h3>
+            <p>Lecture des défauts, voyants et recherche de panne.</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="service-clim.jpg" alt="Climatisation">
+          <div class="service-body">
+            <h3>Climatisation</h3>
+            <p>Recharge, recherche de fuite et désinfection du circuit.</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="service-fap.jpg" alt="Nettoyage FAP">
+          <div class="service-body">
+            <h3>Nettoyage FAP</h3>
+            <p>Machine spéciale pour éliminer suie et cendres et restaurer les performances.</p>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
 
-  <section id="services" class="services-image-section">
-  <div class="container">
-    <div class="section-title">
-      <p class="eyebrow">NOS PRESTATIONS</p>
-      <h2>Nos services en un coup d’œil</h2>
+  <section id="atelier" class="video-section">
+    <div class="video-grid">
+      <div class="video-cover">
+        <img src="video-cover.jpg" alt="Atelier Garage Sica">
+        <button class="play" onclick="showVideoInfo()">▶</button>
+      </div>
+      <div class="video-copy">
+        <p class="eyebrow">NOTRE ATELIER</p>
+        <h2>Voir notre savoir-faire en action</h2>
+        <p>Découvrez notre atelier, notre équipe et nos prestations. Une vidéo réelle pourra être ajoutée ici dès que vous nous l’envoyez.</p>
+        <button class="btn yellow" onclick="showVideoInfo()">Regarder la vidéo</button>
+      </div>
     </div>
+  </section>
 
-    <div class="services-image-card">
-      <img src="prestations.jpg" alt="Carrosserie, diagnostic, entretien et nettoyage FAP Garage Sica Vevey">
+  <section class="advantages">
+    <div class="container advantages-grid">
+      <div><strong>Vevey</strong><span>Facile d’accès</span></div>
+      <div><strong>Équipe professionnelle</strong><span>Techniciens qualifiés</span></div>
+      <div><strong>Clients satisfaits</strong><span>Service de proximité</span></div>
+      <div><strong>+20 ans</strong><span>D’expérience</span></div>
     </div>
-  </div>
-</section>
+  </section>
 
-  <section id="contact" class="section contact-section">
+  <section id="contact" class="section contact">
     <div class="container">
-      <div class="section-title">
+      <div class="section-heading">
         <p class="eyebrow">CONTACT</p>
-        <h2>Nous trouver facilement</h2>
+        <h2>Garage Sica Vevey</h2>
       </div>
 
       <div class="contact-grid">
@@ -96,13 +142,8 @@
         <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+de+Gilamont+24,+1800+Vevey" target="_blank"><small>Adresse</small><strong>Av. de Gilamont 24, 1800 Vevey</strong></a>
       </div>
 
-      <div class="map-card">
-        <iframe
-          title="Garage Sica Vevey sur Google Maps"
-          src="https://www.google.com/maps?q=Av.%20de%20Gilamont%2024%2C%201800%20Vevey&output=embed"
-          loading="lazy">
-        </iframe>
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+de+Gilamont+24,+1800+Vevey" target="_blank">Ouvrir l’itinéraire Google Maps</a>
+      <div class="map-wrap">
+        <iframe title="Garage Sica Vevey" src="https://www.google.com/maps?q=Av.%20de%20Gilamont%2024%2C%201800%20Vevey&output=embed" loading="lazy"></iframe>
       </div>
     </div>
   </section>
@@ -112,7 +153,7 @@
       <div>
         <p class="eyebrow">RENDEZ-VOUS</p>
         <h2>Choisissez votre service</h2>
-        <p>Votre demande sera envoyée directement au garage sur WhatsApp.</p>
+        <p>Votre demande sera envoyée directement au garage.</p>
       </div>
 
       <form class="form" onsubmit="sendAppointment(event)">
@@ -124,12 +165,10 @@
             <option value="">Choisir un service</option>
             <option>Entretien / vidange</option>
             <option>Réparation mécanique</option>
-            <option>Carrosserie / peinture</option>
-            <option>Climatisation</option>
-            <option>Pneus / roues</option>
+            <option>Carrosserie</option>
             <option>Diagnostic électronique</option>
+            <option>Climatisation</option>
             <option>Nettoyage FAP</option>
-            <option>Préparation expertise</option>
             <option>Autre demande</option>
           </select>
         </label>
@@ -142,12 +181,12 @@
     </div>
   </section>
 
-  <section id="devis" class="section dark">
+  <section id="devis" class="section quote-section">
     <div class="container split">
       <div>
         <p class="eyebrow">DEVIS GRATUIT</p>
-        <h2>Décrivez les travaux souhaités</h2>
-        <p>La demande sera envoyée directement au garage sur WhatsApp.</p>
+        <h2>Expliquez votre demande</h2>
+        <p>Le message sera préparé automatiquement pour WhatsApp.</p>
       </div>
 
       <form class="form" onsubmit="sendQuote(event)">
@@ -159,12 +198,10 @@
             <option value="">Choisir un service</option>
             <option>Entretien / vidange</option>
             <option>Réparation mécanique</option>
-            <option>Carrosserie / peinture</option>
-            <option>Climatisation</option>
-            <option>Pneus / roues</option>
+            <option>Carrosserie</option>
             <option>Diagnostic électronique</option>
+            <option>Climatisation</option>
             <option>Nettoyage FAP</option>
-            <option>Préparation expertise</option>
             <option>Autre demande</option>
           </select>
         </label>
@@ -175,17 +212,20 @@
   </section>
 </main>
 
-<a class="whatsapp-float"
-   href="https://wa.me/41783201098?text=Bonjour%20Garage%20Sica%20Vevey"
-   target="_blank"
-   aria-label="Contacter Garage Sica sur WhatsApp">
-  <span>☎</span>
-</a>
+<a class="wa-float" href="https://wa.me/41783201098?text=Bonjour%20Garage%20Sica%20Vevey" target="_blank" aria-label="WhatsApp">◉</a>
 
 <div class="mobile-bar">
   <a href="tel:+41219216521">Appeler</a>
   <a href="#rendezvous">Rendez-vous</a>
   <a href="#devis">Devis</a>
+</div>
+
+<div id="video-modal" class="modal hidden" onclick="hideVideoInfo()">
+  <div class="modal-card" onclick="event.stopPropagation()">
+    <button class="close" onclick="hideVideoInfo()">×</button>
+    <h3>Vidéo du garage</h3>
+    <p>Envoyez votre vidéo de l’atelier. Elle sera intégrée ici avec lecture automatique sans son.</p>
+  </div>
 </div>
 
 <footer>
