@@ -1,7 +1,15 @@
-Version professionnelle avec :
-- bouton WhatsApp
-- formulaire rendez-vous vers WhatsApp
-- formulaire devis vers WhatsApp
-- carte Google Maps intégrée
-- bouton itinéraire
-- barre fixe Appeler / WhatsApp / Rendez-vous / Devis
+NOUVELLE VERSION
+
+- Galerie horizontale avec flèches.
+- Explication de chaque service.
+- Nettoyage FAP avec machine spéciale.
+- Petit bouton WhatsApp flottant uniquement.
+- Barre fixe : Appeler / Rendez-vous / Devis.
+
+Pour changer les photos :
+- garage-exterieur.jpg
+- hero.jpg
+- services.jpg
+- contact.jpg
+
+Remplacez une image dans GitHub en gardant exactement le même nom.
