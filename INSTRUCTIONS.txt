@@ -1,28 +1,9 @@
-SITE PREMIUM GARAGE SICA
+SITE GARAGE SICA
 
-Style :
-- noir, jaune et blanc
-- grande bannière
-- 6 services avec photos
-- section vidéo
-- Google Maps
-- WhatsApp
-- rendez-vous et devis
+- Première image = photo principale.
+- Deux autres images = prestations.
+- Boutons Rendez-vous et Devis fixes en bas.
+- Bouton WhatsApp sur le côté.
+- Formulaires envoyés à contact@garagesica.ch via FormSubmit.
 
-Pour ajouter une vraie vidéo :
-- envoyez la vidéo du garage ;
-- elle remplacera la vignette video-cover.jpg.
-
-À envoyer dans GitHub :
-index.html
-style.css
-script.js
-vercel.json
-hero-garage.jpg
-video-cover.jpg
-service-entretien.jpg
-service-reparation.jpg
-service-carrosserie.jpg
-service-diagnostic.jpg
-service-clim.jpg
-service-fap.jpg
+IMPORTANT : lors du premier envoi, un e-mail d’activation arrivera à contact@garagesica.ch. Il faut cliquer sur le lien de confirmation une seule fois.
